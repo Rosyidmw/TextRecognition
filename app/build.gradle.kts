@@ -52,6 +52,8 @@ dependencies {
     implementation("androidx.camera:camera-view:$cameraxVersion")
 
     implementation("org.tensorflow:tensorflow-lite-task-vision:0.4.4")
+
+    implementation("com.google.mlkit:text-recognition:16.0.0")
 }
 java {
     toolchain {
